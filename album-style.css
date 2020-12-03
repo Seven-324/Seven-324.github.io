@@ -11,7 +11,11 @@ li img{
     width: 350px;
     height: 420px;
 }
-
+@media screen and (max-width: 425px){
+    img{
+        min-height:300px;
+    }
+}
 figure{
     background-color: black;
     color: white;
