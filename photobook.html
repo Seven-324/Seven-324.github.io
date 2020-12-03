@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladies PhotoBook</title>
+    <link rel="stylesheet" href="assets/css/font/material-icons.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="album-style.css">
+</head>
+<body>
+    <header>
+        <nav class="sidestyle nav-wrapper">
+            <a href="#" class="brand-logo">Ladies At Work</a>
+            <ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <h5>Web Development Trainees: <span></span></h5>
+            <h5>Class of 2020</h5>
+        </div>
+    </section>
+
+
+    <section id="main-section" class="container">
+        <div class="row">
+            <div class="col s12 l12">
+                <ul class="slides" id="ladies">
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l4 center">
+                    <i class="material-icons">place</i>
+                    <p>13 Benson Street, Satellite City, Lagos<br> Nigeria</p>
+                </div>
+                <div class="col s12 l4 center">
+                    <i class="material-icons">mail</i>
+                    <p>hello@girlpower.com.ng</p>
+                </div>
+                <div class="col s12 l4 center">
+                    <i class="material-icons">phone</i>
+                    <p>+234-8034378710</p>
+                </div>
+            </div>
+        <div class="footer-copyright">
+            <p class="container center">&copy; 2020 Designed by Sonia Otiono</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/album.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+
+    <!-- <script>
+        $(document).ready(function(){
+            $('.slider').slider();
+          });
+    </script> -->
+
+    <!-- <script>
+        $(document).ready(function(){ $('.materialboxed').materialbox(); });
+    </script> -->
+
+    <script>
+            $(".materialboxed").click(function() {
+                $(".materialboxed").animate({
+                    width: '1000px',
+                    height: '2000px'
+                }, 1500);
+            });
+    </script>
+</body>
+</html>
