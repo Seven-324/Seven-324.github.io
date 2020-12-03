@@ -3,6 +3,7 @@ body{
     background-size: 2000px;
 }
 li{
+    min-width: 430px;
     max-width: 450px;
 }
 li img{
