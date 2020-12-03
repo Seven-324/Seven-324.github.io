@@ -8,14 +8,10 @@ li{
 }
 li img{
     margin-bottom: 10px;
-    width: 350px;
+    width: 320px;
     height: 420px;
 }
-@media screen and (max-width: 425px){
-    img{
-        min-height:300px;
-    }
-}
+
 figure{
     background-color: black;
     color: white;
