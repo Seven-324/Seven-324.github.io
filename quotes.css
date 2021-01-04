@@ -1,0 +1,25 @@
+h2{
+    font-weight: 500;
+}
+#quotespace{
+    margin-top: 100px;
+    background-color: white;
+    height: 140px;
+    width: 600px;
+    border-radius: 5px;
+    padding: 4vh 4vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+#getquote{
+    margin-top: 30px;
+    position: relative;
+    left: 450px;
+}
+footer{
+    margin-top: 330px;
+}
+.footer-copyright p{
+    margin-top: -20px;
+    font-weight: 500;
+}

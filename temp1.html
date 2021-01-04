@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/font/material-icons.css">
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body class="teal darken-1  center">
+    <div class="container row">
+        <h1 class="">Temperature Converter</h1>
+        <div class="col s12 l12">
+            <form>
+                <div class="input-field">
+                    <div class="first">
+                        <p>
+                            <span class="" style="font-size:33px; font-weight: 500;" >Enter °C or °F value</span><br>
+                            <input type="" id="CFinput" placeholder="Enter value" >
+                        </p>
+                    </div>
+                    <div>
+                         <p class="" id="CFoutput"></p> 
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col s12 l12">
+            <button class=" teal darken-4 btn btn-small waves-effect waves-light z-depth-0" onclick="convertCtoF(CFinput.value)">Convert Celcius</button>
+            <button class="yellow darken-4 btn btn-small waves-effect waves-light z-depth-0" onclick="convertFtoC(CFinput.value)">Convert Fahreinheit</button>
+        </div>
+    </div>
+    
+    <footer class="page-footer teal darken-4">
+        <div class="footer-copyright">
+            <p class="container center">&copy; 2020 Designed & Developed by Sonia Otiono</p>
+        </div>
+    </footer>
+        
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/temp1.js"></script>
+</body>
+</html>

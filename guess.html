@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Game</title>
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/font/material-icons.css">
+    <link rel="stylesheet" href="guess.css">
+
+</head>
+<body class="grey lighten-4">
+    
+    <div class="container row">
+        <h2 class="first">Mini Lucky Game</h2>
+        <div class="col s12 l12">
+            <h2 class="">Enter a Word</h2>
+            <input type="text" id="wordinput" placeholder="Type a word"><br>
+            <p id="resultinfo"></p>
+        </div>
+        <div class="col s12 l12">
+            <button class="btn waves-effect indigo darken-2" onclick="miniLuckyGame(wordinput.value)">Play</button>
+        </div>
+    </div>
+    <footer class="page-footer indigo darken-4">
+        <div class="footer-copyright">
+            <p class="container center">&copy; 2020 Designed & Developed by Sonia Otiono</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/guess.js"></script>
+</body>
+</html>

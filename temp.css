@@ -1,0 +1,25 @@
+h1{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.first{
+    margin-top: 120px;
+}
+#CFinput{
+    height: 35px;
+    width: 280px;
+    border-radius: 6px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+#CFoutput{
+    font-size: 35px;
+    font-weight: 500;
+}
+footer{
+    margin-top: 385px;
+}
+.footer-copyright p{
+    margin-top: -10px;
+    font-weight: 500;
+}
