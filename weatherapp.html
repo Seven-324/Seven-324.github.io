@@ -15,8 +15,10 @@
                 <div class="col s12 l12">
                     <h1 class="heading">Weather App</h1>
                     <form id="weather-form">
-                        <input type="text" placeholder="enter a city" id="inputcity" autofocus>
-                        <button type="submit" class="yellow darken-4">SUBMIT</button>
+                        <input type="text" placeholder="Enter a City" id="inputcity" autofocus>
+                       <div class ="center-button">
+                        <button  class ="btn " type="submit" class="yellow darken-4">SUBMIT</button>
+                       </div> 
                         <span class="msg"></span>
                     </form>
                 </div>
@@ -28,17 +30,20 @@
         <div class="center">
             <h2 id="temperature"></h2>
             <h5 id="feels_like"></h5>
-            <h4 id="weather-description"></h4><br><br>
+            <h4 id="weather-description"></h4>
             <span><i class="material-icons medium">place</i></span><h3 id="location"></h3>
             <p id="time"></p>
         </div>
     </section>
     
-    <footer class="page-footer transparent" style="margin-top: 500px; height: 100px;">
-        <div class="footer-copyright yellow darken-4">
+    <footer class="page-footer transparent" style="width: 100%;
+    height: 2rem; position: absolute;
+    bottom: 0;">
+        <div class="footer-copyright" style="background-color:#d4474d;">
             <p class="container center">&copy; 2020 Designed by Sonia Otiono</p>
         </div>
     </footer>
+
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/materialize.min.js"></script>
